@@ -73,3 +73,10 @@ void display() {			// Procedure Display
 	cout << endl;									// Output baris kosong
 
 }
+
+int main()
+{
+	input();				// Menampilkan input
+	insertionsort();		// Menampilkan insertionsort
+	display();				// Memanggil display
+}
